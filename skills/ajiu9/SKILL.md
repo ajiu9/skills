@@ -1,9 +1,9 @@
 ---
-name: antfu
-description: Anthony Fu's opinionated tooling and conventions for JavaScript/TypeScript projects. Use when setting up new projects, configuring ESLint/Prettier alternatives, monorepos, library publishing, or when the user mentions Anthony Fu's preferences.
+name: ajiu9
+description: Ajiu9's opinionated tooling and conventions for JavaScript/TypeScript projects. Use when setting up new projects, configuring ESLint/Prettier alternatives, monorepos, library publishing, or when the user mentions Ajiu9's preferences.
 metadata:
-  author: Anthony Fu
-  version: "2026.02.03"
+  author: Ajiu9
+  version: "2026.02.10"
 ---
 
 ## Coding Practices
@@ -46,18 +46,6 @@ metadata:
 
 ## Tooling Choices
 
-### @antfu/ni Commands
-
-| Command | Description |
-|---------|-------------|
-| `ni` | Install dependencies |
-| `ni <pkg>` / `ni -D <pkg>` | Add dependency / dev dependency |
-| `nr <script>` | Run script |
-| `nu` | Upgrade dependencies |
-| `nun <pkg>` | Uninstall dependency |
-| `nci` | Clean install (`pnpm i --frozen-lockfile`) |
-| `nlx <pkg>` | Execute package (`npx`) |
-
 ### TypeScript Config
 
 ```json
@@ -80,15 +68,15 @@ metadata:
 
 ```js
 // eslint.config.mjs
-import antfu from '@antfu/eslint-config'
+import ajiu9 from '@ajiu9/eslint-config'
 
-export default antfu()
+export default ajiu9()
 ```
 
 
 When completing tasks, run `pnpm run lint --fix` to format the code and fix coding style.
 
-For detailed configuration options: [antfu-eslint-config](references/antfu-eslint-config.md)
+For detailed configuration options: [ajiu9-eslint-config](references/ajiu9-eslint-config.md)
 
 ### Git Hooks
 
@@ -123,7 +111,7 @@ Avoid the default catalog. Catalog names can be adjusted per project needs.
 
 | Topic | Description | Reference |
 |-------|-------------|-----------|
-| ESLint Config | Framework support, formatters, rule overrides, VS Code settings | [antfu-eslint-config](references/antfu-eslint-config.md) |
+| ESLint Config | Framework support, formatters, rule overrides, VS Code settings | [ajiu9-eslint-config](references/ajiu9-eslint-config.md) |
 | Project Setup | .gitignore, GitHub Actions, VS Code extensions | [setting-up](references/setting-up.md) |
 | App Development | Vue/Nuxt/UnoCSS conventions and patterns | [app-development](references/app-development.md) |
 | Library Development | tsdown bundling, pure ESM publishing | [library-development](references/library-development.md) |
