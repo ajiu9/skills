@@ -9,7 +9,7 @@ export interface VendorSkillMeta {
  */
 export const submodules = {
   vue: 'https://github.com/vuejs/docs',
-  nuxt: 'https://github.com/nuxt/nuxt',
+  // nuxt: 'https://github.com/nuxt/nuxt',
   vite: 'https://github.com/vitejs/vite',
   unocss: 'https://github.com/unocss/unocss',
   pnpm: 'https://github.com/pnpm/pnpm.io',
@@ -67,8 +67,8 @@ export const vendors: Record<string, VendorSkillMeta> = {
 }
 
 /**
- * Hand-written skills with Anthony Fu's preferences/tastes/recommendations
+ * Hand-written skills with Ajiu9's preferences/tastes/recommendations
  */
 export const manual = [
-  'antfu',
+  'ajiu9',
 ]
